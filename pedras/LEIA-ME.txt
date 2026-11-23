@@ -1,0 +1,43 @@
+FOTOS DAS PEDRAS (substituem as texturas automaticas)
+
+Coloque NESTA PASTA as fotos com EXATAMENTE estes nomes
+(tudo minusculo, sem acento, sem espaco):
+
+granito-preto-sao-gabriel.webp
+granito-branco-itaunas.webp
+granito-cinza-corumba.webp
+granito-verde-ubatuba.webp
+marmore-carrara.webp
+marmore-travertino-romano.webp
+marmore-nero-marquina.webp
+quartzo-branco-prime.webp
+quartzo-cinza-concreto.webp
+quartzo-calacatta-gold.webp
+
+FORMATO
+- WebP e o formato recomendado (mais leve).
+- O site tambem aceita .jpg, .jpeg e .png com o mesmo nome.
+- Se existir mais de um formato do mesmo nome, o site usa o WebP.
+
+COMO DEVE SER CADA FOTO
+- Quadrada, 1200 x 1200 px, ate 250 KB em WebP.
+- Foto de frente da chapa (camera paralela a pedra), luz natural difusa,
+  sem reflexo de lampada.
+- Recorte uma area de mais ou menos 60 x 60 cm da chapa: so pedra,
+  sem borda, sem fundo, sem etiqueta.
+- Pedra sem foto continua usando a textura automatica. Nada quebra.
+
+LOGO
+- Salve como logo.webp na PASTA PRINCIPAL (ao lado do index.html).
+- Tambem aceita logo.png, logo.svg ou logo.jpg.
+- Use fundo TRANSPARENTE. O cabecalho do site tem fundo bege claro,
+  entao uma logo com fundo branco aparece como um retangulo branco.
+- Altura de uns 120 px ja basta (o site exibe com 40 px de altura).
+- Se tiver o arquivo vetorial, logo.svg e a melhor opcao: nunca perde
+  qualidade em tela nenhuma.
+
+VISTA 3D
+- A vista 3D usa a biblioteca Three.js, carregada da internet na hora
+  em que o cliente clica em "3D". Precisa de conexao.
+- Se a biblioteca nao carregar, o site avisa e a vista tecnica continua
+  funcionando normalmente.
